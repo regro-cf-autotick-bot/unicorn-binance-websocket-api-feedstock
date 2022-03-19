@@ -7,11 +7,16 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unicorn-binance-websocket-api-feedstock/blob/main/LICENSE.txt)
 
-Summary: An unofficial Python API to use the Binance Websocket API`s (com+testnet, com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, jersey, us, jex, dex/chain+testnet) in a easy, fast, flexible, robust and fully-featured way.
+Summary: An unofficial Python API to use the Binance Websocket API`s.
 
 Development: https://github.com/LUCIT-Systems-and-Development/unicorn-binance-websocket-api
 
 Documentation: https://unicorn-binance-websocket-api.docs.lucit.tech/
+
+An unofficial Python API to use the Binance Websocket API`s (com+testnet, com-margin+testnet,
+com-isolated_margin+testnet, com-futures+testnet, jersey, us, jex, dex/chain+testnet)
+in a easy, fast, flexible, robust and fully-featured way.
+
 
 Current build status
 ====================
