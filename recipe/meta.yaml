@@ -60,8 +60,9 @@ about:
   license: MIT
   license_file: LICENSE
   dev_url: https://github.com/LUCIT-Systems-and-Development/unicorn-binance-websocket-api
-  doc_url: https://unicorn-binance-websocket-api.docs.lucit.tech/
+  doc_url: https://unicorn-binance-websocket-api.docs.lucit.tech
 
 extra:
   recipe-maintainers:
-    - oliver-zehentleitner 
+    - oliver-zehentleitner
+    
