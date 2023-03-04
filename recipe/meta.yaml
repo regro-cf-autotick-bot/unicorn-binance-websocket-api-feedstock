@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unicorn-binance-websocket-api-{{ version }}.tar.gz
-  sha256: f10be7d062eccd3213ab2f54f16cfb8ebdb8e293b6a56dfefb89bb9ba41e4b7a
+  sha256: ed9e78ed1f2e3e5efb1fbc3f1b2edb7890545e1183a70692847f6c228de811ee
 
 build:
   number: 0
