@@ -1,11 +1,11 @@
-About unicorn-binance-websocket-api
-===================================
+About unicorn-binance-websocket-api-feedstock
+=============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unicorn-binance-websocket-api-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.lucit.tech/unicorn-binance-websocket-api.html
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unicorn-binance-websocket-api-feedstock/blob/main/LICENSE.txt)
 
 Summary: An unofficial Python API to use the Binance Websocket API`s.
 
