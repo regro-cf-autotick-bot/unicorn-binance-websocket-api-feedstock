@@ -11,7 +11,7 @@ source:
   sha256: 0d444df71c67b4576264c39bacdf792149cee71aed4a1cca54402c1bb0ed8973
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,6 +24,7 @@ requirements:
     - flask
     - flask-restful
     - psutil
+    - PySocks
     - requests
     - ujson
     - unicorn-fy
@@ -35,6 +36,7 @@ requirements:
     - flask
     - flask-restful
     - psutil
+    - PySocks
     - python >=3.7
     - requests
     - ujson
