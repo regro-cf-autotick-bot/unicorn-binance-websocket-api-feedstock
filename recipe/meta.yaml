@@ -28,6 +28,7 @@ requirements:
     - requests
     - ujson
     - unicorn-fy
+    - unicorn-binance-rest-api
     - websocket-client
     - websockets ==10.4
   run:
@@ -41,6 +42,7 @@ requirements:
     - requests
     - ujson
     - unicorn-fy
+    - unicorn-binance-rest-api
     - websocket-client
     - websockets ==10.4
 
