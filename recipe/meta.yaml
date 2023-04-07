@@ -1,5 +1,5 @@
 {% set name = "unicorn-binance-websocket-api" %}
-{% set version = "1.45.0" %}
+{% set version = "1.45.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unicorn-binance-websocket-api-{{ version }}.tar.gz
-  sha256: 79dd8ee78c5f00ca4cc82cddfb7c295f57bca6be6d8fc33d3c872375fb2316e4
+  sha256: 6561d85573fcbc28b98990545589fb75f6385df04116727d1db6c10e68e0f1b8
 
 build:
   number: 0
