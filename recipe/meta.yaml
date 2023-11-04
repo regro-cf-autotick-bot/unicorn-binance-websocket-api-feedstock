@@ -67,7 +67,7 @@ about:
     An unofficial Python API to use the Binance Websocket API`s (com+testnet, com-margin+testnet, 
     com-isolated_margin+testnet, com-futures+testnet, jersey, us, dex/chain+testnet) 
     in a easy, fast, flexible, robust and fully-featured way.
-  license: LSOSL
+  license: MIT
   license_file: LICENSE
   dev_url: https://github.com/LUCIT-Systems-and-Development/unicorn-binance-websocket-api
   doc_url: https://unicorn-binance-websocket-api.docs.lucit.tech
