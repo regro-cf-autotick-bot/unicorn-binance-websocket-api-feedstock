@@ -7,18 +7,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unicorn-binance-websocket-api-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unicorn-binance-websocket-api-{{ version }}.tar.gz
   sha256: f9b360f1dcbb079c6077fa29c98d2446f335a7952574e623aa5482461a8e6542
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - cheroot
     - colorama
     - Cython
@@ -43,7 +43,7 @@ requirements:
     - lucit-licensing-python
     - psutil
     - PySocks
-    - python >=3.7
+    - python >={{ python_min }}
     - requests
     - ujson
     - unicorn-fy
@@ -59,6 +59,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://www.lucit.tech/unicorn-binance-websocket-api.html
